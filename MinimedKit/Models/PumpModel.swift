@@ -64,6 +64,9 @@ public enum PumpModel: String {
     
     // On x15 models, a bolus in progress error is returned when bolusing, even though the bolus succeeds
     public var returnsErrorOnBolus: Bool {
+        if UserDefaults.standard.shouldApplyX15Workaround {
+            return false
+        }
         return generation == 15
     }
     

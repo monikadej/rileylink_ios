@@ -22,6 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		111760C22280AE3D002B8BFD /* OverrideStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111760C12280AE3D002B8BFD /* OverrideStatus.swift */; };
+		2778F67F22D218E0000B2449 /* Userdefaults+katie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2778F67E22D218E0000B2449 /* Userdefaults+katie.swift */; };
+		2778F68122D21F9B000B2449 /* Userdefaults+katie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2778F67E22D218E0000B2449 /* Userdefaults+katie.swift */; };
 		2B19B9881DF3EF68006AB65F /* NewTimePumpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B9871DF3EF68006AB65F /* NewTimePumpEvent.swift */; };
 		2F962EC11E6872170070EFBD /* TimestampedHistoryEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F962EC01E6872170070EFBD /* TimestampedHistoryEventTests.swift */; };
 		2F962EC81E7074E60070EFBD /* BolusNormalPumpEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F962EC71E7074E60070EFBD /* BolusNormalPumpEventTests.swift */; };
@@ -874,6 +876,7 @@
 
 /* Begin PBXFileReference section */
 		111760C12280AE3D002B8BFD /* OverrideStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideStatus.swift; sourceTree = "<group>"; };
+		2778F67E22D218E0000B2449 /* Userdefaults+katie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Userdefaults+katie.swift"; sourceTree = "<group>"; };
 		2B19B9871DF3EF68006AB65F /* NewTimePumpEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTimePumpEvent.swift; sourceTree = "<group>"; };
 		2F962EBE1E678BAA0070EFBD /* PumpOpsSynchronousTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PumpOpsSynchronousTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2F962EC01E6872170070EFBD /* TimestampedHistoryEventTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimestampedHistoryEventTests.swift; sourceTree = "<group>"; };
@@ -2334,6 +2337,7 @@
 				437462381FA9287A00643383 /* RileyLinkDevice.swift */,
 				C14FFC541D3D72A50049CF85 /* UIViewController.swift */,
 				435535D51FB6D98400CE5A23 /* UserDefaults.swift */,
+				2778F67E22D218E0000B2449 /* Userdefaults+katie.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -3472,6 +3476,7 @@
 				43DAD00220A6A470000F8529 /* ReadOtherDevicesStatusMessageBody.swift in Sources */,
 				C1842C1B1C8FA45100DB42AC /* ChangeBolusReminderEnablePumpEvent.swift in Sources */,
 				43DFB60B20D229CC008A7BAE /* ChangeRemoteControlIDMessageBody.swift in Sources */,
+				2778F68122D21F9B000B2449 /* Userdefaults+katie.swift in Sources */,
 				C1842BC51C8F897E00DB42AC /* BasalProfileStartPumpEvent.swift in Sources */,
 				54BC448C1DB47BEA00340EED /* SensorCalGlucoseEvent.swift in Sources */,
 				C14FFC4A1D3AF1AC0049CF85 /* JournalEntryInsulinMarkerPumpEvent.swift in Sources */,
@@ -3726,6 +3731,7 @@
 				43462E8B1CCB06F500F958A8 /* AppDelegate.swift in Sources */,
 				C125728C2121D4D60061BA2F /* UITableViewCell.swift in Sources */,
 				C14FFC551D3D72A50049CF85 /* UIViewController.swift in Sources */,
+				2778F67F22D218E0000B2449 /* Userdefaults+katie.swift in Sources */,
 				7D2366F0212527DA0028B67D /* LocalizedString.swift in Sources */,
 				C14FFC651D3D7E250049CF85 /* RemoteDataManager.swift in Sources */,
 				C17884611D519F1E00405663 /* BatteryIndicator.swift in Sources */,
